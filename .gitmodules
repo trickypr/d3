@@ -1,0 +1,3 @@
+[submodule "orbterm"]
+	path = orbterm
+	url = https://github.com/trickypr/orbterm
