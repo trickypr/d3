@@ -6,5 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# GUI
 orbtk = { git = "https://github.com/redox-os/orbtk.git", branch = "develop" }
-logos = "0.12.0"
+
+# Config
+xdg = "2.2.0"
+serde = "1.0.94"
+serde_derive = "1.0.94"
+serde_yaml = "0.8"
